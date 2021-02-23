@@ -1,0 +1,25 @@
+.canvas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    outline: 1px solid #000;
+    flex-direction: column;
+  }
+  circle {
+    fill: #ddd;
+    stroke: #0074d9;
+    stroke-width: 32;
+    stroke-dasharray: 0 100;
+    transition: stroke-dasharray .3s ease;
+  }
+  svg {
+    margin: 0 auto;
+    transform: rotate(-90deg);
+    background: #ddd;
+    border-radius: 50%;
+    display: block;
+  }
+  .chart{
+      margin: 0 auto;
+  }
